@@ -56,9 +56,16 @@
             width: 200px;
             margin-top: 10px;
         }
-        #photo {
-            width: 300px;
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 10px;
             margin-top: 10px;
+        }
+        .photo {
+            width: 200px;
+            height: auto;
             border-radius: 10px;
         }
         .confetti {
@@ -97,7 +104,12 @@
     <div id="message-container">
         <p id="message"></p>
        
-        <img id="photo" src="https://i.postimg.cc/T3gmKR9n/Whats-App-Image-2025-02-08-at-11-29-23-PM.jpg" alt="Our Photo">
+        <div class="photo-container">
+            <img class="photo" src="https://i.postimg.cc/NfSRDQkP/Whats-App-Image-2025-02-09-at-10-43-45-AM.jpg" alt="Our Photo 1">
+            <img class="photo" src="https://i.postimg.cc/59PBHBYJ/Whats-App-Image-2025-02-09-at-10-43-45-AM-1.jpg" alt="Our Photo 2">
+            <img class="photo" src="https://i.postimg.cc/52zLkDP9/Whats-App-Image-2025-02-09-at-10-43-44-AM.jpg" alt="Our Photo 3">
+            <img class="photo" src="https://i.postimg.cc/ZKCr6Wpd/Whats-App-Image-2025-02-09-at-10-43-45-AM-2.jpg" alt="Our Photo 4">
+        </div>
         <p id="thank-you-message">GET READY FOR A BRUNCH ON 14 FEB!!❤️</p>
     </div>
 
@@ -140,3 +152,4 @@
     </script>
 </body>
 </html>
+
